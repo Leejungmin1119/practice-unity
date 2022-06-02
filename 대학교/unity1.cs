@@ -115,8 +115,13 @@ public class unity1 : MonoBehaviour
 
         //Å¬·¡½º
 
-        playerstats player = new playerstats();
-        player.playerLevel = 0;
+        move player = new move();
+        player.a = 1;
+        Debug.Log(player.a);
+        Debug.Log(player.chat());
+        
+
+        
 
 
 
