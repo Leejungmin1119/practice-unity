@@ -30,7 +30,7 @@ public class 흐름 : MonoBehaviour
 
         transform.position = Vector3.Lerp(transform.position, target, 0.03f);
 
-        //4.Slerp (구형 선형 보간)
+        //4.Slerp (구형 선형 보간)(포물선)
         transform.position = Vector3.Slerp(transform.position, target, 0.05f);
 
         
